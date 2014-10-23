@@ -1,0 +1,9 @@
+<h1>Github user dir</h1>
+<table class="table table-striped" ng-init="getUsers()">
+	<tbody>
+		<tr ng-repeat="user in users">
+			<td>{{user.login}}</td>
+			<td><a href="{{user.html_url}}">Visit Github profile</a></td>
+		</tr>	
+	</tbody>
+</table>
